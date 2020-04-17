@@ -19,18 +19,12 @@
                     <nav class="navbar"><!--defines the navigation links-->
                         <ul>
                             <li><a href=""><i class="fa fa-fw fa-home"></i>Home</a></li>
-                            <li><a href="about.html"><i class="fa fa-fw fa-question-circle"></i>About Me</a></li>
-                            <li><a href="product.html"><i class="fa fa-fw fa-product-hunt"></i>Service</a></li>
+                            <li><a href="#aboutme"><i class="fa fa-fw fa-question-circle"></i>About Me</a></li>
+                            <li><a href="#service"><i class="fa fa-fw fa-product-hunt"></i>Service</a></li>
                             <li><a href="#form"><i class="fa fa-fw fa-envelope"></i>Contact</a></li> 
                         </ul>
                     </nav>
             </div>
-            
-            <!--    <section class="mediabuttons">
-                    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
-                    <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>                        <a href="https://www.snapchat.com/l/en-gb/" target="_blank" class="fa fa-snapchat-ghost"></a>
-                </section> -->
             
             <!--div defines section in a HTML document. Below span, image holder and button for a slider-->
         <div class="slider-holder">
@@ -59,8 +53,9 @@
             <!--loading scripts-->
             <script src="./js/slider.js"></script>
             <script src="./js/stickyheader.js"></script>
+            <!--<script src="js/toggle1.js"></script>-->
             
-            <!--Article general-->
+            <!--Section general-->
             <div id="general">
                 <sectiom class="top">
                     <h1>Car Detailing</h1>
@@ -71,9 +66,83 @@
                     <img src="images/3.gif"/>
                     <img src="images/2.gif"/>
                 </section>
-                <secrion class="bottom">
-                    <h1>Other Car Detail Services Provided</h1>
-                </secrion>
+                <h1>Other Car Detail Services Provided</h1>
+                <section class="bottom">
+                    <section class="button1">
+                        <i class="fa fa-cogs"></i>
+                        <h2 id="txt1"> Engine Steam Cleaning</h2>
+                        <!--<button onclick="myfunction()">More</button>-->
+                        <p id="text1">Cleans and degreases the engine bay with steam without harm to the components and sensors. Don’t damage your engine with abrasive cleaners or excess water.</p>
+                    </section>
+                    <section class="button2">
+                        <i class="fa fa-car"></i>
+                        <h2 id="txt2">Headlight Restoration</h2>
+                        <!--<button onclick="">More</button>-->
+                        <p id="text2">Dull Headlights? Bring your headlights back to life while protecting future yellowing with a semi-permanent polish coating.</p>
+                    </section>
+                    <section class="button3">
+                        <i class="fa fa-cog"></i>
+                        <h2 id="txt3">Scratch Removal</h2>
+                        <!--<button onclick="">More </button>-->
+                        <p id="text3">Utilizing the paint refinishing tools to remove and minimize surface defects and scratches. Results may vary depending on the condition of the defect.</p>
+                    </section>
+                </section>
+                <img class="btmpic" src="images/1.gif"/>
+            </div>
+            
+            <!--About Me-->
+            <div id="aboutme">
+                <h1>About Me</h1><br>
+                <section class="about">
+                    <p>Some text about myself</p>
+                    <p>More text about myself</p>
+                    <p>And little bit more</p>
+                </section>
+                <section class="mediabuttons">
+                    <h2>Follow Me</h2>
+                    <a href="https://www.facebook.com/dawid.szmuc.9" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>                        <a href="https://www.snapchat.com/l/en-gb/" target="_blank" class="fa fa-snapchat-ghost"></a>
+                </section>
+            </div>
+            
+            <!--Service-->
+            <div id="service">
+                <h1>Detailing Packages</h1>
+                <section class="stdpckg">
+                    <h2>Standard Package</h2>
+                    <p>Foam Bath Pre-Soak</p>
+                    <p>Deep Clean Wheels</p>
+                    <p>Gentle Hand Wash</p>
+                    <p>Detail Door Jambs</p>
+                    <p>Exterior &amp; Interior Glass</p><br>
+                    <h3>Price: &euro;50</h3>
+                    <p>3-4hrs Turnaround Time</p>
+                </section>
+                <section class="prempckg">
+                    <h2>Premium Package</h2>
+                    <p>Foam Bath Pre-Soak</p>
+                    <p>Deep Clean Wheels</p>
+                    <p>Gentle Hand Wash</p>
+                    <p>Detail Door Jambs</p>
+                    <p>Exterior &amp; Interior Glass</p>
+                    <p>Paint Clay Bar Decontamination</p>
+                    <p>Paint Iron Remover Exfoliation</p>
+                    <p>Tire Conditioner</p><br>
+                    <h3>Price: &euro;199</h3>
+                    <p>1 Day Turnaround Time</p>
+                </section>
+                <section class="options">
+                    <h2>Interior Options &amp; Add-Ons</h2>
+                    <p>Full Vacuum and Dust-Off: &euro;15</p>
+                    <p>Foam Carpet Shampoo: Starts at &euro;150</p>
+                    <p>Leather Conditioning: Starts at &euro;60</p>
+                    <p>Interior Steam Clean: Starts at &euro;120</p>
+                    <p>Wheels Oil Deep Clean: Starts at &euro;120</p>
+                    <p>Spot Scratch Removal: Starts at &euro;80</p>
+                    <p>Engine Steam Cleaning: Starts at &euro;50</p>
+                    <p>Headlight Restoration: Starts at &euro;100</p>
+                </section>
             </div>
                 
             <!--Section responsible for form-->

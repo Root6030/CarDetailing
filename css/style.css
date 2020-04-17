@@ -32,10 +32,10 @@ body {
 
 /*stickyclass added to the header with JS when it reaches its scroll position*/
 .sticky {
-    position: sticky;
+    position: static;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1;
 }
 
 /*navigation, navigation list settings*/
@@ -76,57 +76,6 @@ nav ul li a:hover {
     padding: 5px 5px 5px 5px;
     margin: ;
     text-decoration: none;
-}
-
-/*media buttons settings*/
-.mediabuttons {
-    max-width: ;
-    width: ;
-    display: ;
-    position: fixed;
-    top: 80%;
-    float: ;
-    padding: ;
-    align-items: ;
-    justify-content: ;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-.mediabuttons .fa {
-    display: block;
-    padding: 5px;
-    font-size: 25px;
-    width: 40px;
-    height: 30px;
-    text-align: center;
-    text-decoration: none;
-    float: ;
-    margin-top: 2px;
-    margin-left: 2px;
-    transition: all 0.3s ease;
-    color: white;
-}
-.fa:hover {
-    opacity: 0.7;
-    background-color: #000;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*slider pictures settings size, colour, margins, transition etc*/
@@ -191,6 +140,7 @@ nav ul li a:hover {
     float: ;
     text-align: center;
     font-size: ;
+    padding-bottom: ;
 }
 #general p, h1 {
     margin: 0px;
@@ -203,6 +153,128 @@ nav ul li a:hover {
     padding-top: 25px;
     padding-bottom: 50px;
     font-size: 22px;
+}
+#general .bottom {
+    padding-bottom: 0px;
+    text-align: center;
+    align-items: ;
+    display: inline-flex; 
+    float: ;
+}
+#general .bottom button {
+    font-size: 18px;
+    width: 120px;
+}
+#general .bottom i, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+#general .bottom i {
+    font-size: 28px;
+    color: #2196F3;
+}
+#general .bottom, .button1, .button2, .button3 {
+    padding: 25px 12.5px 20px 12.5px;
+}
+#general .bottom p {
+    font-size: 18px;
+}
+#general .btmpic {
+    width: 95%;
+    height: 420px;
+    float: ;
+    display: ;
+    text-align: ;
+    padding-bottom: 50px;
+}
+
+/*Settings for Section Service*/
+#service {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#service h1 {
+    padding-bottom: 25px;
+}
+#service section {
+    display: inline-table;
+    text-align: ;
+    padding: 25px 0px 25px 0px;
+    width: 400px;
+    height: 500px;
+    background-color: #f7f7fa;
+}
+#service section p {
+    font-size: 18px;
+}
+
+/*Settings for Section About Me*/
+#aboutme {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+#aboutme p {
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+#aboutme .mediabuttons {
+    padding-top: 25px;
+}
+/*media buttons settings*/
+.mediabuttons {
+    max-width: ;
+    width: ;
+    display: ;
+    position: ;
+    top: ;
+    float: ;
+    padding-top: 0px;
+    padding-left: ;
+    align-items: ;
+    justify-content: ;
+    /*-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+}
+.mediabuttons .fa {
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    float: ;
+    margin-top: 2px;
+    margin-left: 2px;
+    transition: all 0.3s ease;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+    background-color: #000;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*Settings form*/
